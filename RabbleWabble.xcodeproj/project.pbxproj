@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		F23A418625B8A526003F20F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A418525B8A526003F20F1 /* AppDelegate.swift */; };
 		F23A418825B8A526003F20F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A418725B8A526003F20F1 /* SceneDelegate.swift */; };
-		F23A418A25B8A526003F20F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A418925B8A526003F20F1 /* ViewController.swift */; };
+		F23A418A25B8A526003F20F1 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A418925B8A526003F20F1 /* QuestionViewController.swift */; };
 		F23A418D25B8A526003F20F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23A418B25B8A526003F20F1 /* Main.storyboard */; };
-		F23A418F25B8A527003F20F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23A418E25B8A527003F20F1 /* Assets.xcassets */; };
-		F23A419225B8A527003F20F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23A419025B8A527003F20F1 /* LaunchScreen.storyboard */; };
+		F26553CF25BB59730009EB2E /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553CE25BB59730009EB2E /* SelectQuestionGroupViewController.swift */; };
+		F26553D225BB5B9A0009EB2E /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553D125BB5B9A0009EB2E /* QuestionGroupCell.swift */; };
+		F26553D725BDEBEE0009EB2E /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553D625BDEBEE0009EB2E /* QuestionStrategy.swift */; };
+		F26553DA25BDEEB60009EB2E /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553D925BDEEB60009EB2E /* SequentialQuestionStrategy.swift */; };
+		F26553DD25BDF1CB0009EB2E /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553DC25BDF1CB0009EB2E /* RandomQuestionStrategy.swift */; };
+		F26553E025BE16290009EB2E /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553DF25BE16290009EB2E /* AppSettings.swift */; };
+		F26553E325C094B10009EB2E /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553E225C094B10009EB2E /* AppSettingsViewController.swift */; };
+		F283D80A25B8A71B00C1E0C0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283D80925B8A71B00C1E0C0 /* Question.swift */; };
+		F283D80D25B8A7D100C1E0C0 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283D80C25B8A7D100C1E0C0 /* QuestionGroupData.swift */; };
+		F283D81125B8A80800C1E0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F283D81025B8A80800C1E0C0 /* Assets.xcassets */; };
+		F283D81525B8A82F00C1E0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283D81425B8A82F00C1E0C0 /* LaunchScreen.storyboard */; };
+		F283D81825B8AAAE00C1E0C0 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283D81725B8AAAE00C1E0C0 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F23A418225B8A526003F20F1 /* RabbleWabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleWabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23A418525B8A526003F20F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F23A418725B8A526003F20F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F23A418925B8A526003F20F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F23A418925B8A526003F20F1 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		F23A418C25B8A526003F20F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F23A418E25B8A527003F20F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F23A419125B8A527003F20F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F23A419325B8A527003F20F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26553CE25BB59730009EB2E /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
+		F26553D125BB5B9A0009EB2E /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
+		F26553D625BDEBEE0009EB2E /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
+		F26553D925BDEEB60009EB2E /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
+		F26553DC25BDF1CB0009EB2E /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
+		F26553DF25BE16290009EB2E /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		F26553E225C094B10009EB2E /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
+		F283D80925B8A71B00C1E0C0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F283D80C25B8A7D100C1E0C0 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGroupData.swift; sourceTree = "<group>"; };
+		F283D81025B8A80800C1E0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F283D81425B8A82F00C1E0C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F283D81725B8AAAE00C1E0C0 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,73 @@
 		F23A418425B8A526003F20F1 /* RabbleWabble */ = {
 			isa = PBXGroup;
 			children = (
-				F23A418525B8A526003F20F1 /* AppDelegate.swift */,
-				F23A418725B8A526003F20F1 /* SceneDelegate.swift */,
-				F23A418925B8A526003F20F1 /* ViewController.swift */,
-				F23A418B25B8A526003F20F1 /* Main.storyboard */,
-				F23A418E25B8A527003F20F1 /* Assets.xcassets */,
-				F23A419025B8A527003F20F1 /* LaunchScreen.storyboard */,
-				F23A419325B8A527003F20F1 /* Info.plist */,
+				F23A419B25B8A5B1003F20F1 /* AppDelegate */,
+				F23A419C25B8A5D3003F20F1 /* Controllers */,
+				F23A419D25B8A5DA003F20F1 /* Models */,
+				F23A419E25B8A5DE003F20F1 /* Resourses */,
+				F26553D425BDE58C0009EB2E /* Strategies */,
+				F23A419F25B8A5E6003F20F1 /* Views */,
 			);
 			path = RabbleWabble;
+			sourceTree = "<group>";
+		};
+		F23A419B25B8A5B1003F20F1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F23A418525B8A526003F20F1 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F23A419C25B8A5D3003F20F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F23A418925B8A526003F20F1 /* QuestionViewController.swift */,
+				F26553CE25BB59730009EB2E /* SelectQuestionGroupViewController.swift */,
+				F26553E225C094B10009EB2E /* AppSettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F23A419D25B8A5DA003F20F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F283D80925B8A71B00C1E0C0 /* Question.swift */,
+				F283D80C25B8A7D100C1E0C0 /* QuestionGroupData.swift */,
+				F26553DF25BE16290009EB2E /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F23A419E25B8A5DE003F20F1 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				F283D81025B8A80800C1E0C0 /* Assets.xcassets */,
+				F23A419325B8A527003F20F1 /* Info.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		F23A419F25B8A5E6003F20F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F23A418725B8A526003F20F1 /* SceneDelegate.swift */,
+				F283D81425B8A82F00C1E0C0 /* LaunchScreen.storyboard */,
+				F23A418B25B8A526003F20F1 /* Main.storyboard */,
+				F283D81725B8AAAE00C1E0C0 /* QuestionView.swift */,
+				F26553D125BB5B9A0009EB2E /* QuestionGroupCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F26553D425BDE58C0009EB2E /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				F26553D625BDEBEE0009EB2E /* QuestionStrategy.swift */,
+				F26553DC25BDF1CB0009EB2E /* RandomQuestionStrategy.swift */,
+				F26553D925BDEEB60009EB2E /* SequentialQuestionStrategy.swift */,
+			);
+			path = Strategies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23A419225B8A527003F20F1 /* LaunchScreen.storyboard in Resources */,
-				F23A418F25B8A527003F20F1 /* Assets.xcassets in Resources */,
+				F283D81525B8A82F00C1E0C0 /* LaunchScreen.storyboard in Resources */,
+				F283D81125B8A80800C1E0C0 /* Assets.xcassets in Resources */,
 				F23A418D25B8A526003F20F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +215,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23A418A25B8A526003F20F1 /* ViewController.swift in Sources */,
+				F26553DA25BDEEB60009EB2E /* SequentialQuestionStrategy.swift in Sources */,
+				F23A418A25B8A526003F20F1 /* QuestionViewController.swift in Sources */,
+				F26553E025BE16290009EB2E /* AppSettings.swift in Sources */,
+				F283D80A25B8A71B00C1E0C0 /* Question.swift in Sources */,
+				F26553DD25BDF1CB0009EB2E /* RandomQuestionStrategy.swift in Sources */,
 				F23A418625B8A526003F20F1 /* AppDelegate.swift in Sources */,
 				F23A418825B8A526003F20F1 /* SceneDelegate.swift in Sources */,
+				F283D81825B8AAAE00C1E0C0 /* QuestionView.swift in Sources */,
+				F26553E325C094B10009EB2E /* AppSettingsViewController.swift in Sources */,
+				F283D80D25B8A7D100C1E0C0 /* QuestionGroupData.swift in Sources */,
+				F26553CF25BB59730009EB2E /* SelectQuestionGroupViewController.swift in Sources */,
+				F26553D725BDEBEE0009EB2E /* QuestionStrategy.swift in Sources */,
+				F26553D225BB5B9A0009EB2E /* QuestionGroupCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,14 +240,6 @@
 				F23A418C25B8A526003F20F1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F23A419025B8A527003F20F1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F23A419125B8A527003F20F1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RabbleWabble/Resourses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RabbleWabble/Resourses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
